@@ -4,7 +4,6 @@ services:
     name: webdis
     runtime: docker
     rootDir: ./
-    healthCheckPath: /
     envVars:
     - key: PORT
       value: 8000
